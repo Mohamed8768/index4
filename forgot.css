@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(خلفيه2.jpg);   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;                
+  justify-content: center;  
+  align-items: center;         
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
